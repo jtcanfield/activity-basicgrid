@@ -21,27 +21,35 @@ h1{
     text-align: center;
     text-transform: uppercase;
 }
-
-
-
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #bff;
+}
+ul{
+  padding: 0;
+}
+.inner li {
+  border-radius: 10px;
+  background-color: #fff;
+}
 
 
 /**** Tablet Styles ***********************************/
-
-
-
+@media (min-width: 700px) {
+  li {
+    background-color: #fcf;
+  }
+}
 
 
 
 
 
 /**** Desktop Styles ***********************************/
+@media (min-width: 1000px) {
 
-
-
-
-
-
-
-
-
+  }
+}
